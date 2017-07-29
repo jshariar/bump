@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+# Device gem will be used for User authentication
+gem 'devise'
 # Import Bootstrap Sass from github
 gem 'bootstrap-sass', '~> 3.3.6'
 

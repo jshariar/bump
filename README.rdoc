@@ -2,17 +2,15 @@
 
 Bump is a social networking site built as an independant project. The website is built on Ruby on Rails and other resources that are available for free on the internet.
 
-Resources used:
-<p>
-Bootstrap - to make sure the website looked pretty without too much work
-Ruby on Rails - for rapid development due to limited resources
-Jquery - To make things pretty
-
-</p>
+##Resources used:
+__Bootstrap__ - to make sure the website looked pretty without too much work
+__Ruby on Rails__ - for rapid development due to limited resources
+__Jquery__ - To make things pretty (comes with bootstrap)
 
 Bump is stll unders construction, but once finished, we will be able to function like a full fledged social network.
 
 Things We Want To Do:
+------------------------
 
 * User Creation
 * User Deletion
@@ -20,8 +18,12 @@ Things We Want To Do:
 * Post Deletion
 * Post Ranking (based on popularity)
 
-<tt>Ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]
-Rails 4.2.5
-Bootstrap 3.3.7</tt>
+`Ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]`
+`Rails 4.2.5`
+`Bootstrap 3.3.7`
+
+>Developing isnt about making difficult things. Its about making difficult things easy. Thats why this project was built on the most basic technology availabble on the web.
+
+
 
 

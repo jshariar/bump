@@ -20,11 +20,8 @@ Things We Want To Do:
 * Post Deletion
 * Post Ranking (based on popularity)
 
-<tt>
-     Ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]
-    Rails 4.2.5
-Bootstrap 3.3.7
-
-</tt>
+<tt>Ruby 2.3.0p0 (2015-12-25 revision 53290) [x86_64-linux]
+Rails 4.2.5
+Bootstrap 3.3.7</tt>
 
 

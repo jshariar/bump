@@ -18,20 +18,24 @@
         
     </div>
     
-    
-    <div class="col-xs-6">
-        
-         <div class="panel panel-default">
+  
+        <div class="col-xs-6">
             
-            <div class="panel-body">
+            <%= render '/components/post_form' %>
+            
+              <% for @p in @posts  %>
+             <div class="panel panel-default">
                 
-                <p>Tweets</p>
-                
+                <div class="panel-body">
+                    
+                    <p><%= @p.content %></p>
+                    
+                </div>
             </div>
+            
+            <% end %>
+    
         </div>
-        
-        
-    </div>
     
     
     <div class="col-xs-3">

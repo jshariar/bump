@@ -4,7 +4,7 @@ class PagesController < ApplicationController
 
   def home
     
-    
+    @newPost = Post.new
     @posts = Post.all
   end
 

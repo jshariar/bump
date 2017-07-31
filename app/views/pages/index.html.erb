@@ -1,2 +1,86 @@
-<h1>Pages#index</h1>
-<p>Find me in app/views/pages/index.html.erb</p>
+<% if !user_signed_in? %>
+
+    <style> 
+        body{
+            background: url("/bg.jpg") no-repeat center center fixed;
+            -webkit-background-size: cover;
+            -mox-background-size: cover;
+            -o-background-size: cover;
+            background-size:cover;
+            color:white;
+        }
+        
+        h1{
+            font-weight:bold;
+        }
+        
+        .container-index{
+            margin-left: 15%;
+            margin-right: 15%;
+        }
+        .log-in{
+            color:#333333;
+        }
+    
+    </style>
+   
+   
+       
+       
+        
+        <div class="container-fluid"> 
+        
+            <div class="container">
+                
+                <div class="row">
+                    
+                    <div class="col-md-6 col-md-offset-2">
+                    
+                        <h1>Welcome To Bump.</h1>
+                        <h2>Connect with people and have fun sharing your experiences with them. Bump is fun with friends and strangers alike</h2>
+            
+                    
+                    </div>
+                    
+                    <div class="col-md-3 ">
+                        <div class="log-in panel">
+                            <p>Log In</p>
+                            
+                            
+                        </div>
+                        
+                        
+                        <div class="log-in panel">
+                            <p>Sign Up</p>
+                            
+                            
+                        </div>
+                        
+                        
+                        
+                    </div>
+                    
+                </div>
+                 
+                
+            </div>
+           
+        
+        
+        
+    
+    
+    
+    </div>
+    
+    
+
+<% else %>
+    <!--- Redirects user to home if logged in ---->
+    <script>
+        
+        document.location = "/home"
+        
+    </script>
+
+<% end %>

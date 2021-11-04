@@ -1,4 +1,5 @@
 = Bump :elephant:
+Project is depreciated. Do not copy or use.
 
 Bump is a social networking site built as an independant project. The website is built on Ruby on Rails and other resources that are available for free on the internet.
 
